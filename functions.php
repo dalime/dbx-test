@@ -42,3 +42,5 @@ if ( class_exists( 'Jetpack' ) ) {
 foreach ( $understrap_includes as $file ) {
 	require_once $understrap_inc_dir . $file;
 }
+
+wp_enqueue_style( 'customstyles', get_stylesheet_directory_uri() . '/customstyles.css' );
