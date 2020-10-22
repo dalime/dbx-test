@@ -1,0 +1,50 @@
+{
+    "key": "group_5f915fff61ee3",
+    "title": "Custom Field Group",
+    "fields": [
+        {
+            "key": "field_5f916527bea26",
+            "label": "Custom Field Header",
+            "name": "custom_field_header",
+            "type": "text",
+            "instructions": "Custom Field Header",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Custom Field Header",
+            "placeholder": "Custom Field Header",
+            "prepend": "Custom Field Header",
+            "append": "Custom Field Header",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "701"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "701"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1603365399
+}
